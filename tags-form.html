@@ -4,43 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Etiquetas HTML5</title>
 </head>
 <body>
- <div>
-    <form action="">
-        <h1>Formulario</h1>
-        <p>
-            <label for="">Nombre:</label>
-            <input type="text" placeholder="Ingrese su Nombre"> 
-        </p>
-        <p>
-            <label for="">Apellido:</label>
-            <input type="text" placeholder="Ingrese su Apellido"> 
-        </p>
-        <p>
-            <label for="">Edad:</label>
-            <input type="number" min="18" max="80" placeholder="18">
-        </p>
-        <p>
-            <label for="">Sexo:</label>
-            <Select>
-                <option value="">Masculino</option>
-                <option value="">Femenino</option>
-            </Select>
-        </p>
-        <p>
-            <label for="">DNI:</label>
-            <input type="text" size="8" minlength="8" maxlength="8">
-        </p>
-        <p>
-            <label for="">Email:</label>
-            <input type="email">
-        </p>
-        <input type="submit">
-    </form>
- </div>   
+    <section>
+        <h1>Etiquetas HTML5</h1>
+        <article>
+            <h2>Etiqueta &lt;form&gt;</h2>
+            <p>Representa un formulario, que contiene controles que puede ser enviado a un servidor para procesamiento.</p>
+        </article>
+        <article>
+            <h2>Etiqueta &lt;label&gt;</h2>
+            <p>Representa el título de un control de formulario.</p>
+            <form action="">
+                <label for="">Este es un label</label>
+            </form>
+        </article>
+        <article>
+            <h2>Etiqueta &lt;input&gt;</h2>
+            <p>Representa un campo de datos escrito que permite al usuario editar los datos.</p>
+            <form action="">
+                <label for="">Ingrese su Nombre:</label>
+                <input type="text">
+            </form>
+        </article>
+        <article>
+            <h2>Etiqueta &lt;button&gt;</h2>
+            <p>Representa un botón.</p>
+            <form action="">
+                <label for="">Ingrese su Nombre:</label>
+                <input type="text">
+                <input type="submit">
+            </form>
+        </article>
+        <article>
+            <h2>Etiqueta &lt;select&gt;</h2>
+            <p>Representa un control que permite la selección entre un conjunto de opciones.</p>
+            <form action="">
+                <label for="">Etique Select: </label>
+                <select name="" id="">
+                    <option value="PE">Perú</option>
+                </select>
+            </form>
+        </article>
+        <article>
+            <h2>Etiqueta &lt;option&gt;</h2>
+            <p>Representa una opción en un elemento &lt;select&gt; o una sugerencia de un elemento&lt;datalist&gt;.</p>
+            <form action="">
+                <label for="">Seleccione su País</label>
+                <select name="" id="">
+                    <option value="PE">Perú</option>
+                    <option value="FR">Francia</option>
+                    <option value="ES">España</option>
+                </select>
+            </form>
+        </article>
+        <article>
+            <h2>Etiqueta &lt;textarea&gt;</h2>
+            <p>	Representa un control de edición de texto multilínea.</p>
+            <form action="">
+                <p>
+                    <label for="">Escribir dentro del textarea:</label>
+                </p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </form>
+        </article>
+    </section>
     
+    
+
 </body>
 </html>
